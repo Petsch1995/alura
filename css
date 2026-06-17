@@ -43,3 +43,9 @@ footer {
   display: flex; 
   gap: 16px; 
 } 
+
+.cartao:hover .cartao-interno { transform: rotateY(180deg); } 
+.cabecalho-link:focus { color: #ffe8d6; } 
+.cabecalho-link:active { color: #ffd1a6; } 
+.cartao:focus-within .cartao-interno { transform: rotateY(180deg); } 
+.cabecalho-link:visited { color: #ffd1a6; } 
